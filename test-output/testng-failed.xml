@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="remoteurl" value="http://192.168.99.100:4444/wd/hub"/>
+  <test verbose="2" name="ChromeTest" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="remoteurl" value="http://192.168.99.100:4444/wd/hub"/>
+    <classes>
+      <class name="com.ebay.test.search.ProductSearchTest"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  <test verbose="2" name="FirefoxTest" parallel="classes">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="remoteurl" value="http://192.168.99.100:4444/wd/hub"/>
+    <classes>
+      <class name="com.ebay.test.search.ProductSearchTest"/>
+    </classes>
+  </test> <!-- FirefoxTest -->
+  <test name="FirefoxTest(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="remoteurl" value="http://192.168.99.100:4444/wd/hub"/>
+    <classes>
+      <class name="com.ebay.test.search.ProductSearchTest">
+        <methods>
+          <include name="getPriceProductIphone"/>
+          <include name="selectFifthProductofFirstPage"/>
+          <include name="addToBasketWithoutFixpackIphone"/>
+          <include name="finalizeTests"/>
+          <include name="finalizeTests"/>
+          <include name="controlTotalNumberofPriceAfterDeleteTelevision"/>
+          <include name="deleteTelevisionInBasket"/>
+          <include name="testSetUp"/>
+          <include name="testSetUp"/>
+          <include name="checkTotalNumberofPriceIphoneTelevision"/>
+          <include name="initalizeTests"/>
+          <include name="initalizeTests"/>
+          <include name="deleteAllBasket"/>
+        </methods>
+      </class> <!-- com.ebay.test.search.ProductSearchTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

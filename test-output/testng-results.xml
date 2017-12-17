@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="7" total="28" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="236201" started-at="2017-12-17T14:42:10Z" finished-at="2017-12-17T14:46:07Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="236139" started-at="2017-12-17T14:42:10Z" finished-at="2017-12-17T14:46:06Z">
+      <class name="com.ebay.test.search.ProductSearchTest">
+        <test-method status="PASS" signature="initalizeTests(java.lang.String, java.lang.String)[pri:0, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="initalizeTests" is-config="true" duration-ms="23792" started-at="2017-12-17T17:42:10Z" finished-at="2017-12-17T17:42:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.99.100:4444/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeTests -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="testSetUp" is-config="true" duration-ms="33433" started-at="2017-12-17T17:42:34Z" finished-at="2017-12-17T17:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="searchProduct1()[pri:1, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="searchProduct1" duration-ms="38995" started-at="2017-12-17T17:43:08Z" finished-at="2017-12-17T17:43:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct1 -->
+        <test-method status="PASS" signature="selectFifthProductofSecondPage()[pri:2, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="selectFifthProductofSecondPage" duration-ms="37717" started-at="2017-12-17T17:43:47Z" finished-at="2017-12-17T17:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFifthProductofSecondPage -->
+        <test-method status="PASS" signature="getPriceProductTelevision()[pri:3, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="getPriceProductTelevision" duration-ms="1534" started-at="2017-12-17T17:44:24Z" finished-at="2017-12-17T17:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPriceProductTelevision -->
+        <test-method status="PASS" signature="addToBasketWithoutFixpackTelevision()[pri:4, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="addToBasketWithoutFixpackTelevision" duration-ms="7486" started-at="2017-12-17T17:44:26Z" finished-at="2017-12-17T17:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToBasketWithoutFixpackTelevision -->
+        <test-method status="PASS" signature="getPriceProductinBasketTelevision()[pri:5, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="getPriceProductinBasketTelevision" duration-ms="554" started-at="2017-12-17T17:44:33Z" finished-at="2017-12-17T17:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPriceProductinBasketTelevision -->
+        <test-method status="PASS" signature="compareProductPriceTelevision()[pri:6, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="compareProductPriceTelevision" duration-ms="3" started-at="2017-12-17T17:44:34Z" finished-at="2017-12-17T17:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareProductPriceTelevision -->
+        <test-method status="PASS" signature="searchProduct2()[pri:7, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="searchProduct2" duration-ms="48175" started-at="2017-12-17T17:44:34Z" finished-at="2017-12-17T17:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct2 -->
+        <test-method status="PASS" signature="selectFifthProductofFirstPage()[pri:8, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="selectFifthProductofFirstPage" duration-ms="15806" started-at="2017-12-17T17:45:22Z" finished-at="2017-12-17T17:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFifthProductofFirstPage -->
+        <test-method status="PASS" signature="getPriceProductIphone()[pri:9, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="getPriceProductIphone" duration-ms="4083" started-at="2017-12-17T17:45:38Z" finished-at="2017-12-17T17:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPriceProductIphone -->
+        <test-method status="PASS" signature="addToBasketWithoutFixpackIphone()[pri:10, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="addToBasketWithoutFixpackIphone" duration-ms="12908" started-at="2017-12-17T17:45:42Z" finished-at="2017-12-17T17:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToBasketWithoutFixpackIphone -->
+        <test-method status="PASS" signature="checkTotalNumberofPriceIphoneTelevision()[pri:11, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="checkTotalNumberofPriceIphoneTelevision" duration-ms="364" started-at="2017-12-17T17:45:55Z" finished-at="2017-12-17T17:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTotalNumberofPriceIphoneTelevision -->
+        <test-method status="PASS" signature="deleteTelevisionInBasket()[pri:12, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="deleteTelevisionInBasket" duration-ms="3119" started-at="2017-12-17T17:45:55Z" finished-at="2017-12-17T17:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTelevisionInBasket -->
+        <test-method status="PASS" signature="controlTotalNumberofPriceAfterDeleteTelevision()[pri:13, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="controlTotalNumberofPriceAfterDeleteTelevision" duration-ms="180" started-at="2017-12-17T17:45:58Z" finished-at="2017-12-17T17:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- controlTotalNumberofPriceAfterDeleteTelevision -->
+        <test-method status="PASS" signature="deleteAllBasket()[pri:14, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="deleteAllBasket" duration-ms="1927" started-at="2017-12-17T17:45:59Z" finished-at="2017-12-17T17:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllBasket -->
+        <test-method status="PASS" signature="finalizeTests()[pri:0, instance:com.ebay.test.search.ProductSearchTest@71ba6d4e]" name="finalizeTests" is-config="true" duration-ms="6021" started-at="2017-12-17T17:46:00Z" finished-at="2017-12-17T17:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizeTests -->
+      </class> <!-- com.ebay.test.search.ProductSearchTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="236201" started-at="2017-12-17T14:42:10Z" finished-at="2017-12-17T14:46:07Z">
+      <class name="com.ebay.test.search.ProductSearchTest">
+        <test-method status="PASS" signature="initalizeTests(java.lang.String, java.lang.String)[pri:0, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="initalizeTests" is-config="true" duration-ms="53425" started-at="2017-12-17T17:42:10Z" finished-at="2017-12-17T17:43:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.99.100:4444/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeTests -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="testSetUp" is-config="true" duration-ms="35782" started-at="2017-12-17T17:43:04Z" finished-at="2017-12-17T17:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="searchProduct1()[pri:1, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="searchProduct1" duration-ms="44649" started-at="2017-12-17T17:43:40Z" finished-at="2017-12-17T17:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct1 -->
+        <test-method status="PASS" signature="selectFifthProductofSecondPage()[pri:2, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="selectFifthProductofSecondPage" duration-ms="43562" started-at="2017-12-17T17:44:24Z" finished-at="2017-12-17T17:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFifthProductofSecondPage -->
+        <test-method status="PASS" signature="getPriceProductTelevision()[pri:3, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="getPriceProductTelevision" duration-ms="2028" started-at="2017-12-17T17:45:08Z" finished-at="2017-12-17T17:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPriceProductTelevision -->
+        <test-method status="PASS" signature="addToBasketWithoutFixpackTelevision()[pri:4, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="addToBasketWithoutFixpackTelevision" duration-ms="12160" started-at="2017-12-17T17:45:10Z" finished-at="2017-12-17T17:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToBasketWithoutFixpackTelevision -->
+        <test-method status="PASS" signature="getPriceProductinBasketTelevision()[pri:5, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="getPriceProductinBasketTelevision" duration-ms="1265" started-at="2017-12-17T17:45:22Z" finished-at="2017-12-17T17:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPriceProductinBasketTelevision -->
+        <test-method status="PASS" signature="compareProductPriceTelevision()[pri:6, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="compareProductPriceTelevision" duration-ms="1" started-at="2017-12-17T17:45:23Z" finished-at="2017-12-17T17:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareProductPriceTelevision -->
+        <test-method status="PASS" signature="searchProduct2()[pri:7, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="searchProduct2" duration-ms="31960" started-at="2017-12-17T17:45:23Z" finished-at="2017-12-17T17:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct2 -->
+        <test-method status="FAIL" signature="selectFifthProductofFirstPage()[pri:8, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="selectFifthProductofFirstPage" duration-ms="11321" started-at="2017-12-17T17:45:55Z" finished-at="2017-12-17T17:46:06Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 77, moz:profile: /tmp/rust_mozprofile.P33cWa..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.100-boot2docker, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+*** Element info: {Using=css selector, value=ul.products-container li:nth-child(5)}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 77, moz:profile: /tmp/rust_mozprofile.P33cWa..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.100-boot2docker, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+*** Element info: {Using=css selector, value=ul.products-container li:nth-child(5)}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.toString(Unknown Source)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:131)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:292)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:131)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:227)
+	at com.ebay.common.CustomWait.waitUntilElementVisible(CustomWait.java:16)
+	at com.ebay.search.ProductSearch.selectFifthProduct(ProductSearch.java:195)
+	at com.ebay.test.search.ProductSearchTest.selectFifthProductofFirstPage(ProductSearchTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFifthProductofFirstPage -->
+        <test-method status="FAIL" signature="getPriceProductIphone()[pri:9, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="getPriceProductIphone" duration-ms="2" started-at="2017-12-17T17:46:06Z" finished-at="2017-12-17T17:46:07Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at com.ebay.search.ProductSearch.findProductPrice(ProductSearch.java:218)
+	at com.ebay.test.search.ProductSearchTest.getPriceProductIphone(ProductSearchTest.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPriceProductIphone -->
+        <test-method status="FAIL" signature="addToBasketWithoutFixpackIphone()[pri:10, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="addToBasketWithoutFixpackIphone" duration-ms="0" started-at="2017-12-17T17:46:07Z" finished-at="2017-12-17T17:46:07Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:284)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:672)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:668)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.ebay.common.CustomWait.waitUntilElementClickable(CustomWait.java:26)
+	at com.ebay.search.ProductSearch.clickAddtoBasket(ProductSearch.java:243)
+	at com.ebay.search.ProductSearch.AddtoBasket(ProductSearch.java:237)
+	at com.ebay.test.search.ProductSearchTest.addToBasketWithoutFixpackIphone(ProductSearchTest.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToBasketWithoutFixpackIphone -->
+        <test-method status="FAIL" signature="checkTotalNumberofPriceIphoneTelevision()[pri:11, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="checkTotalNumberofPriceIphoneTelevision" duration-ms="1" started-at="2017-12-17T17:46:07Z" finished-at="2017-12-17T17:46:07Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.getText(Unknown Source)
+	at com.ebay.search.ProductSearch.findTotalNumberofProductsPrice(ProductSearch.java:286)
+	at com.ebay.test.search.ProductSearchTest.checkTotalNumberofPriceIphoneTelevision(ProductSearchTest.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTotalNumberofPriceIphoneTelevision -->
+        <test-method status="FAIL" signature="deleteTelevisionInBasket()[pri:12, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="deleteTelevisionInBasket" duration-ms="0" started-at="2017-12-17T17:46:07Z" finished-at="2017-12-17T17:46:07Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at com.ebay.search.ProductSearch.deleteTelevisioninBasket(ProductSearch.java:309)
+	at com.ebay.test.search.ProductSearchTest.deleteTelevisionInBasket(ProductSearchTest.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTelevisionInBasket -->
+        <test-method status="FAIL" signature="controlTotalNumberofPriceAfterDeleteTelevision()[pri:13, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="controlTotalNumberofPriceAfterDeleteTelevision" duration-ms="1" started-at="2017-12-17T17:46:07Z" finished-at="2017-12-17T17:46:07Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.getText(Unknown Source)
+	at com.ebay.search.ProductSearch.findTotalNumberofNewProductsPrice(ProductSearch.java:314)
+	at com.ebay.test.search.ProductSearchTest.controlTotalNumberofPriceAfterDeleteTelevision(ProductSearchTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- controlTotalNumberofPriceAfterDeleteTelevision -->
+        <test-method status="FAIL" signature="deleteAllBasket()[pri:14, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="deleteAllBasket" duration-ms="0" started-at="2017-12-17T17:46:07Z" finished-at="2017-12-17T17:46:07Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AND0104', ip: '10.100.138.39', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at com.ebay.search.ProductSearch.deleteAllBaseket(ProductSearch.java:338)
+	at com.ebay.test.search.ProductSearchTest.deleteAllBasket(ProductSearchTest.java:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllBasket -->
+        <test-method status="PASS" signature="finalizeTests()[pri:0, instance:com.ebay.test.search.ProductSearchTest@53fe15ff]" name="finalizeTests" is-config="true" duration-ms="0" started-at="2017-12-17T17:46:07Z" finished-at="2017-12-17T17:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizeTests -->
+      </class> <!-- com.ebay.test.search.ProductSearchTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
