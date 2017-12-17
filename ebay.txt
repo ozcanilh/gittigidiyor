@@ -1,0 +1,33 @@
+Kullanýlan Teknolojiler
+Eclipse-Maven, Java, TestNG, PageObjects Patters, Docker with Selenium Grid
+
+Test Koþumu Öncesi Yapýlmasý Gerekenler:
+gittigidiyor.properties dosyasýný C dizinin altýna koymak ("C:/gittigidiyor.properties")
+
+Notlar:
+1)Farklý Browserlarda local de çalýþtýrmak için TestNG.xml in içinde bulunan browser parametresinde ki value yu deðiþtirebilirsiniz. Þuan için Chrome ayarlý. BaseTest classýnda diðer driverlar mevcuttur.Driverýn ismini yazmaný yeterli olacaktýr parametreye
+2)Verilen Senaryolar ayrý ayrý caselere ayrýlýp, @Test (priority) verilerek, caselerin birleþiminde senaryo oluþturularak test edilmiþtir, priority kullanmadan @Test in içine bütün senaryoda yazýlabilirdi. Kullaným amacýna göre deðiþtirebilir.
+3)Örnek olarak; url adresini gittigidiyor.properties dosyasýnda belirlenen parametreden aldým. Bunu code umuzun içindede yazabilirdik. Örnek olmasý amacýyla yapýlmýþtýr. Genellikle güvenlik ile ilgili parametreler olursa diye properties dosyasýnda aldýðýmýz olmuþtur.
+4)TestNG.xml -> Run as -> TestNG Suite testi çalýþtýrýr
+
+
+Docker: 
+1)docker-compose.yml de max grid,node, port ayarlarý yapýlmýþtýr. Videolarda hem docker üzerinden hem de local de koþturulmuþtur.
+2)TestNGDockerýn içinde closslar paralel olarak farklý browserlarda koþturalabilecek þekilde ayarlanmýþtýr.
+2)
+Docker üzerinden koþturulmasý için;
+- TestNGDocker.xml i run etmemiz gerekiyor.
+BaseTest.class local de koþturulmak için ayarlanmýþtýr. Docker üzerinden koþturmak istiyorsak üzerinde deðiþiklikler yapmamýz gerekecektir
+Hepsi yorum olarak BaseTest.Classýn içinde bulunmaktadýr. Yine de BaseTestDocker diye bir class olusturup BaseTestin altýna koyuyorum, docker için olmasý gereken configurasyoný için.
+BaseTestDocker da yapýlan deðiþiklikler;
+- BaseTest.class ýmýzdaki; System.setProperty("") içerisinde browser driverlarýný belirlenmiþtir. Bu satýrý docker üzerinde çalýþtýracaksak kaldýrabilir.Docker da buna gerek yoktur
+- BaseTest.class ýmýzdaki; driver = new Chrome/MozillaDriver(capabilities); Bu satýrý docker üzerinde çalýþtýracaksak kaldýrabilir.Docker da buna gerek yoktur.
+- BaseTest.Class ýmýza yorum satýrýnda bulunan //driver = new RemoteWebDriver(new URL("http://192.168.99.100:X/wd/hub"), capabilities); eklememiz yeterli olacaktýr . 
+- BaseTest.Class ýmýzdaki; @Parameters("browser") kýsmý (@Parameters({"browser","remoteurl",})) olarak deðiþtirmelidir docker için
+- BaseTest.Class ýmýzdaki; public void initalizeTests(@Optional("firefox") String browser) kýsmý public void initalizeTests(String browser, String remoteurl) olarak deðiþtirilmelidir
+- BaseTest.Class ýmýzdaki; driver = new FirefoxDriver(capabilities); kýsýmlarýna gerek yoktur Docker için.
+
+
+
+Local üzerinden koþturulmasý için
+- TestNG.xml i run etmemiz gerekiyor  
